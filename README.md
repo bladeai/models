@@ -1,5 +1,5 @@
 # models
-Model Respository
+Model Respositories
 - fashion-net
 
 # Setup
