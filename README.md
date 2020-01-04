@@ -1,18 +1,23 @@
 # models
 Model Respository
+- fashion-net
 
 # Setup
 1. Install miniconda (https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
 2. run the following commands
 ```bash
-# Enter into fashion-net directory
+# Enter into selected model directory
 $ cd fashion-net
+
 # Install kerasenv conda environment
 $ conda env create -f kerasenv.yml
+
 # Start development environment
 $ conda activate kerasenv
+
 # or
 $ source activate kerasenv
+
 # Start Jupyter notebook
 $ jupyter notebook
 ```
