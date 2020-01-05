@@ -40,7 +40,7 @@ class FashionNet:
         x = BatchNormalization(axis=channel_dim)(x)
         x = MaxPooling2D(pool_size=(2, 2))(x)
         x = Dropout(0.25)(x)
-        print(x)
+
         # define a branch of output layers for the number of different
         # clothing categories (i.e., shirts, jeans, dresses, etc.)
         x = Flatten()(x)
